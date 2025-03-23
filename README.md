@@ -2,6 +2,19 @@
 
 This project provides a prediction system that estimates visitor numbers based on various inputs such as rating, revenue, and country. The system uses machine learning models (Linear Regression) to calculate expected visitors for tourist destinations.
 
+## The project consists of:
+
+- A Flutter mobile app for user input and predictions.
+
+- A FastAPI backend exposing the prediction API.
+
+- A Google Colab Notebook with model training and performance evaluation.
+
+## Source of Data
+The dataset used for training was sourced from Kaggle, containing historical visitor data, revenue figures, and customer ratings. The data was preprocessed to handle missing values, normalize numerical features, and encode categorical variables to improve model performance.
+
+***
+***
 
 # Live Links
 ## API 
