@@ -1,31 +1,31 @@
-# Project Name
+# Tourist Prediction App
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yourusername/your-repo-name)  
-A machine learning project with an API endpoint for predictions and a Flutter mobile app.
+This project provides a prediction system that estimates visitor numbers based on various inputs such as rating, revenue, and country. The system uses machine learning models (Linear Regression) to calculate expected visitors for tourist destinations.
 
----
 
-## Project Overview
-This repository contains:
-- **Jupyter Notebook**: Model training and evaluation.
-- **API Code**: FastAPI/Flask code for serving predictions.
-- **Flutter App**: Mobile app to interact with the API.
+# Live Links
+## API 
+The public API endpoint for predictions is hosted at: [Api_link](https://linear-regression-api-o7as.onrender.com/docs)
 
----
+## Video Demo
+Watch the demo video showcasing how the app works and how predictions are made: [video_demo](https://www.youtube.com/watch?v=wlDl2ClFTzU&ab_channel=CceE)
 
-## API Endpoint
-A publicly available API endpoint is deployed for live predictions. Use the link below to test it via **Swagger UI**:  
+## How to run Mobile App
 
-🔗 **Endpoint URL**: `https://your-api-name.herokuapp.com/docs`  
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Cchancee/linear_regression_model.git
+   cd FlutterApp/trevo 
+   ```
 
-**Example Request**:
-```bash
-POST /predict
-Content-Type: application/json
+2. Install Flutter dependencies:
+    ```
+    flutter pub get
+    ```
 
-{
-  "feature_1": 5.1,
-  "feature_2": 3.5,
-  "feature_3": 1.4,
-  "feature_4": 0.2
-}
+3. Connect your device or use an emulator, and run the app:
+    ```
+    flutter run
+    ```
+  
+The app will now open and you can enter values for the rating, revenue, and country to receive predictions based on the model.
